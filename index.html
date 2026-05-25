@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Star | Jamaica's Premium News Portal</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;500;700;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0.16/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#da251d" />
+    <meta name="msapplication-TileColor" content="#da251d" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+      <div class="container nav-container">
+        <a href="#" class="logo">
+          <img src="/image/Jca-Star_site-logo.png" alt="The Star Logo" />
+        </a>
+        
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Tell the Pastor</a></li>
+          <li><a href="#">Media Archive</a></li>
+        </ul>
+
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <div id="mobileMenu" class="mobile-overlay">
+      <ul class="mobile-links">
+        <li><a href="#" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#" onclick="toggleMenu()">News</a></li>
+        <li><a href="#" onclick="toggleMenu()">Sports</a></li>
+        <li><a href="#" onclick="toggleMenu()">Entertainment</a></li>
+        <li><a href="#" onclick="toggleMenu()">Tell the Pastor</a></li>
+        <li><a href="#" onclick="toggleMenu()">Event Guide</a></li>
+        <li><a href="#" onclick="toggleMenu()">Lifestyle</a></li>
+        <li><a href="#" onclick="toggleMenu()">Features</a></li>
+        <li><a href="#" onclick="toggleMenu()">Commentary</a></li>
+        <li><a href="#" onclick="toggleMenu()">Media Archive</a></li>
+        <li><a href="#" onclick="toggleMenu()">Star epaper</a></li>
+        <li><a href="#" onclick="toggleMenu()">Advertise With Us</a></li>
+        <li><a href="#" onclick="toggleMenu()">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <main class="container">
+      
+      <section class="latest-section">
+        <h2 class="section-heading">Latest News</h2>
+        
+        <div class="news-grid">
+          <div class="main-feature" data-aos="fade-up">
+            <img src="/image/caraccident.jpg" alt="Breaking News Event Thumbnail" />
+            <div class="feature-overlay">
+              <span class="badge">Breaking News</span>
+              <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            </div>
+          </div>
+
+          <div class="sidebar-news">
+            <div class="sub-feature" data-aos="fade-left">
+              <img src="/image/children.jpg" alt="Community Event Image" />
+              <div class="sub-feature-content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <p>Updated 15 mins ago</p>
+              </div>
+            </div>
+
+            <div class="sub-feature" data-aos="fade-left" data-aos-delay="100">
+              <img src="/image/gilrsitting.jpg" alt="Human Interest Profile Pic" />
+              <div class="sub-feature-content">
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+                <p>Updated 1 hour ago</p>
+              </div>
+            </div>
+
+            <div class="sub-feature" data-aos="fade-left" data-aos-delay="200">
+              <img src="/image/old lady.jpg" alt="Featured Editorial Presentation Layout" />
+              <div class="sub-feature-content">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                <p>Updated 3 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-share-bar">
+          <span>Connect and share your local perspectives with us:</span>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook Link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram Link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter Link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="Email Link"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2 class="section-heading">Sports</h2>
+        
+        <div class="content-cards-grid">
+          <div class="card" data-aos="fade-up">
+            <div class="card-media">
+              <img src="/image/women-footballers.webp" alt="Women footballers action shot" />
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              <p>Milner's previous deal was due to expire at the end of this month; the 36-year-old had external offers from one Premier League club and two from overseas; the midfielder has accepted reduced personal terms.</p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-media">
+              <img src="/image/white-racecar-diver.webp" alt="Race car driver display portfolio frame" />
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, deserunt saepe! Excepturi praesentium, adipisci facere veritatis provident at iure consectetur magni aliquid nam.</p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-media">
+              <video controls src="/video/blindfarmer.mp4"></video>
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis voluptates iusto veniam, veritatis maxime fuga enim vel, omnis repudiandae minima est cumque magnam.</p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up">
+            <div class="card-media">
+              <video controls src="/video/Skeng - Gang Bang (Official Music Video).mp4"></video>
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima asperiores ut eaque natus, minus exercitationem consequuntur et eius provident tenetur voluptates.</p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-media">
+              <img src="/image/men-footbalers.webp" alt="Male footballers tracking presentation" />
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt impedit ipsum nostrum architecto qui ducimus nemo rerum veniam pierspiciatis, tempore pariatur sit.</p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-media">
+              <img src="/image/criketers.webp" alt="Cricket game field snapshot context frame" />
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque voluptate voluptatibus consectetur vel quo earum quasi culpa accusamus velit rem voluptates natus.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block alt-bg" style="margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px;">
+        <div class="container">
+          <h2 class="section-heading">Entertainment</h2>
+          
+          <div class="content-cards-grid">
+            <div class="card" data-aos="zoom-in-up">
+              <div class="card-media">
+                <img src="/image/rastaman-in-black.webp" alt="Artist Profile Thumbnail Representation" />
+              </div>
+              <div class="card-body">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam rerum numquam eum expedita sunt qui laborum? Explicabo pariatur, modi quia sunt doloremque ipsam odit.</p>
+              </div>
+            </div>
+
+            <div class="card" data-aos="zoom-in-up" data-aos-delay="100">
+              <div class="card-media">
+                <img src="/image/demarco-infront-of-piano.webp" alt="Music artist working landscape production reference frame" />
+              </div>
+              <div class="card-body">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab earum repellat reprehenderit. Voluptatem quia cupiditate vel laborum eos veniam nesciunt rerum ullam porro.</p>
+              </div>
+            </div>
+
+            <div class="card" data-aos="zoom-in-up" data-aos-delay="200">
+              <div class="card-media">
+                <img src="/image/papie-keelo.webp" alt="Performance image capture context asset" />
+              </div>
+              <div class="card-body">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magni optio, amet praesentium earum debitis atque ullam quisquam suscipit accusamus, eius, numquam natus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2 class="section-heading">Tell the Pastor</h2>
+        
+        <div class="content-cards-grid">
+          <div class="card pastor-card" data-aos="fade-right">
+            <div class="card-media">
+              <img src="image/pic1.PNG" alt="Relationship/Social Graphic Context Emblem" />
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus aliquam eveniet, dolor nostrum reprehenderit vitae quae, placeat, hic ad labore illo maxime ipsam.</p>
+            </div>
+          </div>
+
+          <div class="card pastor-card" data-aos="fade-up">
+            <div class="card-media">
+              <img src="/image/pic2.PNG" alt="Financial Matters Emblem Vector Context" />
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repellendus omnis saepe natus sed iure accusamus laudantium odit dicta sit quam vero, molestiae.</p>
+            </div>
+          </div>
+
+          <div class="card pastor-card" data-aos="fade-left">
+            <div class="card-media">
+              <img src="/image/pic3.PNG" alt="Lifestyle Advice Emblem Context Vector Representation" />
+            </div>
+            <div class="card-body">
+              <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A cum itaque veniam unde autem maxime laboriosam animi suscipit, sit possimus at doloremque temporibus.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="/image/Jca-Star_site-logo.png" alt="The Star Inverse Accent Logo" />
+          </div>
+          <div class="footer-search">
+            <form action="#" method="GET">
+              <input type="text" placeholder="Search The Star articles..." aria-label="Search field input text box" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Gleaner Blogs</a></li>
+              <li><a href="#">Gleaner Online</a></li>
+              <li><a href="#">Go-Jamaica</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Legal & Corporate</h4>
+            <ul>
+              <li><a href="#">Disclaimer</a></li>
+              <li><a href="#">Advertise with Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">RSS Feed</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Features</h4>
+            <ul>
+              <li><a href="#">Dating</a></li>
+              <li><a href="#">Star ePaper</a></li>
+              <li><a href="#">Mobile App Layout</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 The Jamaica Star. All Rights Reserved. Built with performance semantic design workflows.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
